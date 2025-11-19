@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta</title>
+</head>
+<!--encabezado-->
+
+<body>
+    <header>
+        <h1><strong>Receta de ensalada a la Chilena</strong></h1>
+    </header>
+    <br><br>
+    <main>
+        <!--lista de ingredientes-->
+        <div id="seccion-ingredientes">
+            <nav>
+                <ul>
+                    <li><a href="-"><a>Dos Tomate</a> </li>
+                    <li><a href="-"></a>Una Cebolla</li>
+                    <li><a href="-"></a>Sal</li>
+                    <li><a href="-"></a>Aceite</li>
+                </ul>
+            </nav>
+        </div>
+        <!-- modo de preparacion-->
+        <hr>
+        <div id="seccion-preparacion">
+            <header>
+                <h2>Preparacion</h2>
+            </header>
+            <p>En un bol despues de lavar y pelar tomate, se procede picar en cuadritos los tomates. <br>
+                Cortar en pluma finas la cebolla, y juntar en el mismo bol con los tomates picados.<br>
+                Echar aceite y sal a gusto.<br>
+                Revolver y listo para servir.
+            </p>
+            <figure>
+                <img src="descarga.jpeg" alt="Foto de ensalada">
+            </figure>
+        </div>
+        <!--Enlace-->
+        <footer>
+            <a href="https://cocinachilena.cl/ensalada-chilena/">Ensalada Chilena</a>
+        </footer>
+        <!--formulario de la pagina-->
+        <hr>
+        <section>
+            <h2>Envíanos tu opinión</h2>
+            <br>
+            <div id="seccion-formulario"></div>
+            <form action="#" method="post">
+
+                <label for="nombre">Tu Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí" required>
+                <br><br>
+                </div>
+                <br>
+                <div>
+                    <label for="calificacion">¿Qué nota le pones a la receta?</label><br>
+                    <select id="calificacion" name="calificacion">
+                        <option value="5">5 Estrellas (Excelente)</option>
+                        <option value="4">4 Estrellas (Muy buena)</option>
+                        <option value="3">3 Estrellas (Regular)</option>
+                        <option value="2">2 Estrellas (Mala)</option>
+                        <option value="1">1 Estrella (Pésima)</option>
+                    </select>
+                </div>
+                <br><br>
+                <label for="comentarios">Comentarios adicionales:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="30"
+                    placeholder="Cuéntanos qué te pareció..."></textarea>
+                <br><br>
+
+                <button type="submit">Enviar Opinión</button>
+                <button type="reset">Borrar Todo</button>
+            </form>
+        </section>
+
+
+    </main>
+</body>
+
+</html>
